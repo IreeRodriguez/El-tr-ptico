@@ -1,0 +1,62 @@
+.contenedor {
+  display: flex;
+  text-align: center;
+  flex-flow: row wrap;
+  border: 1px solid black;
+
+}
+.contenedor > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: gold;
+  font-weight: bold;
+  border: 1px solid black;
+
+}
+
+.footer {
+    order: 4;
+    background: lightgreen;
+    justify-content: center;
+    border: 1px solid black;
+
+
+}
+
+.center {
+    order:2;
+    flex: 3 25%;
+  text-align: justify;
+  padding: 3%;
+  border: 1px solid black;
+}
+
+.left {
+    flex: 1 5%;
+    order:1;
+    background: deepskyblue;
+    text-align: justify;
+    border: 1px solid black;
+
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1, h3{
+    text-align: center;
+}
+
+.right{
+    flex: 1 5%;
+    order:3;
+    background: deepskyblue;
+    text-align: justify;
+    border: 1px solid black;
+
+
+}
